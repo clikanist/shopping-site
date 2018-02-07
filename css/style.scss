@@ -2,7 +2,7 @@
 @charset "utf-8";
 
 // font-family
-$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+$baseFontFamily :"ヒラギノ角ゴ Pro";
 
 /* Base
 ------------------------------------------------------------*/
@@ -454,6 +454,9 @@ footer{
 #product_box{
     background:#FFF;
     padding:0 10px 20px 10px;
+    h2{
+        padding-bottom:25px;
+    }
 }  
 
 #product_name{
@@ -486,13 +489,15 @@ footer{
         
         width:100%;
         th{
+            width:30%;
             text-align:center;
             color: #8a8168;
+            vertical-align: center;
         }
         td, th{
-            vertical-align: inherit;
+            
             margin:0;
-            padding:10px 20px;
+            padding:10px;
             border: 1px solid #e2ddd4;
         }
     }
@@ -557,19 +562,20 @@ footer{
                 width:100%;
             }
         #main_view{
-            width:70%;
+            width:80%;
 
         }
         #pics_list{
             width:30%;
         
             li{
-                width:50%;
+                width:48%;
+                margin:0 1%;
             }
         }
     }
   #product_box{
-      padding: 40px 5% 10px 5%;
+      padding: 10px 5% 10px 5%;
       background:#FFF;
   }
   #product_id {
@@ -578,7 +584,7 @@ footer{
   }
   .shopping_wrapper{
       
-      padding:5%;
+      padding:0 5% 5%;
   }
     
 }

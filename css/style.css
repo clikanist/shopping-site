@@ -6,7 +6,7 @@ html {
 
 body {
   font-size: 1.2rem;
-  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: "ヒラギノ角ゴ Pro";
   line-height: 1.6;
   letter-spacing: 0.1em;
   background: #f9f8f6; }
@@ -331,6 +331,8 @@ footer .page_top {
 #product_box {
   background: #FFF;
   padding: 0 10px 20px 10px; }
+  #product_box h2 {
+    padding-bottom: 25px; }
 
 #product_name {
   font-size: 1.4rem;
@@ -357,12 +359,13 @@ footer .page_top {
   .shopping_wrapper table {
     width: 100%; }
     .shopping_wrapper table th {
+      width: 30%;
       text-align: center;
-      color: #8a8168; }
+      color: #8a8168;
+      vertical-align: center; }
     .shopping_wrapper table td, .shopping_wrapper table th {
-      vertical-align: inherit;
       margin: 0;
-      padding: 10px 20px;
+      padding: 10px;
       border: 1px solid #e2ddd4; }
   .shopping_wrapper .cart_table td {
     text-align: center;
@@ -405,14 +408,15 @@ footer .page_top {
     .product_pics img {
       width: 100%; }
     .product_pics #main_view {
-      width: 70%; }
+      width: 80%; }
     .product_pics #pics_list {
       width: 30%; }
       .product_pics #pics_list li {
-        width: 50%; }
+        width: 48%;
+        margin: 0 1%; }
 
   #product_box {
-    padding: 40px 5% 10px 5%;
+    padding: 10px 5% 10px 5%;
     background: #FFF; }
 
   #product_id {
@@ -420,6 +424,6 @@ footer .page_top {
     padding: 0 0; }
 
   .shopping_wrapper {
-    padding: 5%; } }
+    padding: 0 5% 5%; } }
 
 /*# sourceMappingURL=style.css.map */
